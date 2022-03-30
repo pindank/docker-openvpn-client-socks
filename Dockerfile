@@ -6,7 +6,7 @@
 # Note that the config must have embedded certs
 # See `start` in same repo for more ideas
 
-FROM alpine
+FROM alpine:3.15.3
 
 COPY sockd.sh /usr/local/bin/
 
